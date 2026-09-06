@@ -1,0 +1,56 @@
+MODEL: ResNet50
+
+FINAL VALIDATION PERFORMANCE
+Validation Accuracy: 86.24%
+TTA Validation Accuracy: 86.67%
+
+FINAL TEST PERFORMANCE
+Test Samples: 1977
+Accuracy: 86.95%
+Macro Precision: 86.89%
+Macro Recall: 86.95%
+Macro F1-score: 86.92%
+Weighted F1-score: 86.92%
+
+FINAL TEST PERFORMANCE WITH TTA
+TTA Test Accuracy: 88.67%
+
+PER-CLASS TEST PERFORMANCE
+
+Elliptical:
+Precision: 87.86%
+Recall: 88.92%
+F1-score: 88.39%
+Support: 659
+
+Spiral:
+Precision: 94.95%
+Recall: 94.23%
+F1-score: 94.59%
+Support: 659
+
+Irregular:
+Precision: 83.23%
+Recall: 82.85%
+F1-score: 83.04%
+Support: 659
+
+VALIDATION PERFORMANCE WITH TTA
+
+Elliptical:
+Precision: 85.89%
+Recall: 87.85%
+F1-score: 86.86%
+Support: 395
+
+Spiral:
+Precision: 94.04%
+Recall: 91.90%
+F1-score: 92.96%
+Support: 395
+
+Irregular:
+Precision: 80.25%
+Recall: 80.25%
+F1-score: 80.25%
+Support: 395
