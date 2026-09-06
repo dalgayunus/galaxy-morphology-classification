@@ -1,0 +1,33 @@
+MODEL: DenseNet121
+
+FINAL VALIDATION PERFORMANCE
+Validation Accuracy: 79.22%
+
+FINAL TEST PERFORMANCE
+Test Samples: 2335
+Accuracy: 78.24%
+Balanced Accuracy: 78.24%
+Macro Precision: 78.27%
+Macro Recall: 78.24%
+Macro F1-score: 78.25%
+Macro ROC-AUC: 91.18%
+
+PER-CLASS TEST PERFORMANCE
+
+Elliptical:
+Precision: 74.85%
+Recall: 76.22%
+F1-score: 75.53%
+Support: 778
+
+Spiral:
+Precision: 91.24%
+Recall: 89.86%
+F1-score: 90.54%
+Support: 779
+
+Irregular:
+Precision: 68.73%
+Recall: 68.64%
+F1-score: 68.68%
+Support: 778
