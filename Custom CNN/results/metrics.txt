@@ -1,0 +1,56 @@
+MODEL: Custom CNN
+
+FINAL VALIDATION PERFORMANCE
+Validation Accuracy: 83.21%
+TTA Validation Accuracy: 82.87%
+
+FINAL TEST PERFORMANCE
+Test Samples: 1977
+Accuracy: 82.75%
+Macro Precision: 84.71%
+Macro Recall: 82.75%
+Macro F1-score: 83.07%
+Weighted F1-score: 83.07%
+
+FINAL TEST PERFORMANCE WITH TTA
+TTA Test Accuracy: 83.92%
+
+PER-CLASS TEST PERFORMANCE
+
+Elliptical:
+Precision: 91.94%
+Recall: 76.18%
+F1-score: 83.32%
+Support: 659
+
+Spiral:
+Precision: 92.50%
+Recall: 84.22%
+F1-score: 88.17%
+Support: 659
+
+Irregular:
+Precision: 69.68%
+Recall: 87.86%
+F1-score: 77.72%
+Support: 659
+
+VALIDATION PERFORMANCE WITH TTA
+
+Elliptical:
+Precision: 90.91%
+Recall: 75.95%
+F1-score: 82.76%
+Support: 395
+
+Spiral:
+Precision: 93.37%
+Recall: 85.57%
+F1-score: 89.30%
+Support: 395
+
+Irregular:
+Precision: 69.78%
+Recall: 87.09%
+F1-score: 77.48%
+Support: 395
