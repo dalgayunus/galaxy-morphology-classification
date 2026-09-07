@@ -1,0 +1,56 @@
+MODEL: EfficientNetV2-S
+
+FINAL VALIDATION PERFORMANCE
+Validation Accuracy: 87.17%
+TTA Validation Accuracy: 87.34%
+
+FINAL TEST PERFORMANCE
+Test Samples: 1977
+Accuracy: 87.10%
+Macro Precision: 87.06%
+Macro Recall: 87.10%
+Macro F1-score: 87.05%
+Weighted F1-score: 87.05%
+
+FINAL TEST PERFORMANCE WITH TTA
+TTA Test Accuracy: 88.92%
+
+PER-CLASS TEST PERFORMANCE
+
+Elliptical:
+Precision: 87.01%
+Recall: 90.44%
+F1-score: 88.69%
+Support: 659
+
+Spiral:
+Precision: 94.15%
+Recall: 95.30%
+F1-score: 94.72%
+Support: 659
+
+Irregular:
+Precision: 85.44%
+Recall: 81.03%
+F1-score: 83.18%
+Support: 659
+
+VALIDATION PERFORMANCE WITH TTA
+
+Elliptical:
+Precision: 85.64%
+Recall: 89.11%
+F1-score: 87.34%
+Support: 395
+
+Spiral:
+Precision: 93.69%
+Recall: 93.92%
+F1-score: 93.81%
+Support: 395
+
+Irregular:
+Precision: 82.54%
+Recall: 78.99%
+F1-score: 80.72%
+Support: 395
