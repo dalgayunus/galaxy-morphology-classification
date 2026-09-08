@@ -1,0 +1,33 @@
+MODEL: ConvNeXt-Tiny
+
+FINAL VALIDATION PERFORMANCE
+Validation Accuracy: 88.27%
+
+FINAL TEST PERFORMANCE
+Test Samples: 1977
+Accuracy: 89.02%
+Balanced Accuracy: 89.02%
+Macro Precision: 89.10%
+Macro Recall: 89.02%
+Macro F1-score: 89.06%
+Macro ROC-AUC: N/A
+
+PER-CLASS TEST PERFORMANCE
+
+Elliptical:
+Precision: 88.17%
+Recall: 89.38%
+F1-score: 88.77%
+Support: 659
+
+Spiral:
+Precision: 95.80%
+Recall: 93.47%
+F1-score: 94.62%
+Support: 659
+
+Irregular:
+Precision: 83.33%
+Recall: 84.22%
+F1-score: 83.77%
+Support: 659
